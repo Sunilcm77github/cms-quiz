@@ -1,0 +1,31 @@
+/* Global styles */
+body {
+  background-image: url("./assets/quiz-bg.jpg");
+  background-size: cover; /* Ensures the background image covers the entire screen */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  font-family: "Arial", sans-serif; /* You can replace this with a web font for better typography */
+  margin: 0;
+  padding: 0; /* Removed padding from body to avoid layout issues */
+  color: #333; /* Optional: Adjust text color for better readability */
+  height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+/* Ensure no extra padding or margin are applied to HTML and body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Reset box sizing to avoid layout issues */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Optional: Tailwind-like padding reset */
+.App {
+  padding: 20px; /* Add padding to the main wrapper */
+}

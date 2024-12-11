@@ -1,0 +1,108 @@
+.quiz {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font: sans-serif;
+  color: blueviolet;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  border: 2;
+  border-color: goldenrod;
+}
+
+/* Start button styles */
+.start {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: #218838;
+}
+
+/* Score styles */
+.scroe {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Loading text styles */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+/* Previous button styles */
+.previous {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.previous:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled previous button */
+.previous:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Next button styles */
+.next {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.next:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled next button */
+.next:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
